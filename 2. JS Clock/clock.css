@@ -1,5 +1,5 @@
 html{
-    background: url(http://static.hdw.eweb4.com/media/wallpapers_dl/1/36/350520-background-color.jpg) center;
+    background: url(images/1.jpg) center;
     background-size: cover;
     font-family: 'helvetica neue';
     text-align: center;
@@ -7,7 +7,7 @@ html{
 }
 
 body{
-    background: url(https://img00.deviantart.net/333c/i/2015/168/0/f/clock_face_6_by_stephenjohnsmith-d8xmn7o.png) center;
+    background: url(images/2.png) center;
     background-repeat: no-repeat;
     background-size: contain;
     margin: 0px;
