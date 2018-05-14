@@ -1,11 +1,15 @@
 html{
-    background: #018DED url(http://unsplash.it/1500/1000?image=881&blur=50);
+    background: url(http://static.hdw.eweb4.com/media/wallpapers_dl/1/36/350520-background-color.jpg) center;
+    background-size: cover;
     font-family: 'helvetica neue';
     text-align: center;
     font-size: 10px;
 }
 
 body{
+    background: url(https://pre00.deviantart.net/7a51/th/pre/i/2015/168/3/3/clock_face_7_by_stephenjohnsmith-d8xmna3.png) center;
+    background-repeat: no-repeat;
+    background-size: contain;
     margin: 0px;
     font-size: 2rem;
     display: flex;
@@ -15,17 +19,23 @@ body{
 }
 
 .clock{
-    width: 30rem;
-    height: 30rem;
-    border: 20px solid white;
+    width: 40rem;
+    height: 40rem;
+    border: 20px solid rgba(255, 255, 255, 0);
     border-radius: 50%;
     margin: 50px auto;
     position: relative;
-    padding: 2rem;
+    padding: 3rem;
     box-shadow: 0 0 0 4px rgba(0,0,0,0.1) inset 0 0 03px #EFEFEF,  inset 0 0 10px black,
     0 0 10px rgba(0,0,0,0.2);
 }
-
+.hour-hand
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    transform: translateY(-3px);
+}
 .clock-face{
     position: relative;
     width: 100%;
