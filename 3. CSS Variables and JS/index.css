@@ -1,0 +1,39 @@
+
+body{
+    background: url(https://images3.alphacoders.com/823/thumb-1920-82317.jpg) center ;
+    background-size: cover;
+    text-align: center;
+    color: white;
+    font-family: 'hevletica nneue', sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}
+
+.controls{
+    margin-bottom: 50px;
+}
+
+:root{
+    --base:#ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+#img{
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));   
+}
+
+.hl{
+    color: var(--base);
+}
+
+#img{
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    border: solid blur(var(--blur)) 4px;
+    background: url(https://images3.alphacoders.com/823/thumb-1920-82317.jpg) center;
+    background-size: cover;
+}
